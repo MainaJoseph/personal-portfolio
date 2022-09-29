@@ -19,7 +19,7 @@ export const Footer = () => {
             <div className="social-icon">
               <a href="https://www.linkedin.com/in/joseph-mainajm/" target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="Icon" /></a>
               <a href="https://twitter.com/sirjoseh" target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="Icon" /></a>
-              <a href="#"><img src={navIcon3} alt="Icon" /></a>
+              <a href="https://www.instagram.com/juniour.king.773/"><img src={navIcon3} alt="Icon" /></a>
               <a href="https://github.com/MainaJoseph"  target="_blank" rel="noopener noreferrer"><img src={navIcon4} alt="Icon" /></a>
             </div>
             <p>@2022 Joseph Maina. All Rights Reserved.</p>
