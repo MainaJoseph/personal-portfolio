@@ -6,6 +6,7 @@ import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 import navIcon4 from "../assets/img/nav-icon4.svg";
 
+
 export const Footer = () => {
   return (
     <footer className="footer">
@@ -21,6 +22,7 @@ export const Footer = () => {
               <a href="https://twitter.com/sirjoseh" target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="Icon" /></a>
               <a href="https://www.instagram.com/juniour.king.773/"><img src={navIcon3} alt="Icon" /></a>
               <a href="https://github.com/MainaJoseph"  target="_blank" rel="noopener noreferrer"><img src={navIcon4} alt="Icon" /></a>
+              
             </div>
             <p>@2022 Joseph Maina. All Rights Reserved.</p>
           </Col>

@@ -643,3 +643,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     opacity: 0.5;
   }
 }
+
+.red-text {
+  color: #CC8899;
+}
