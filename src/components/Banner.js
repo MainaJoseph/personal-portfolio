@@ -56,8 +56,8 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Joseph Maina`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer", "IT Consultant", "Fullstack Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I am a <span className="red-text">software developer</span> residing in Nairobi, kenya. Strong in design and integration with intuitive problem-solving skills. Proficient in PHP Laravel,React, Node.js, MySql.  Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions.</p>
+                <h1>{`Hi! I'm  Maina`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer", "IT Consultant", "Fullstack Developer" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>I am a Software Developer residing in Nairobi, kenya. Strong in design and integration with intuitive problem-solving skills. Proficient in <span className="red-text">PHP Laravel</span>, <span className="react-text">React</span>, <span className="node-text">Node.js</span>, <span className="my-text">My</span><span className="sql-text">Sql</span>.Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>

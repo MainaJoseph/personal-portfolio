@@ -644,6 +644,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
-.red-text {
+.pink-text {
   color: #CC8899;
+}
+
+.red-text {
+  color: #787CB5;
+}
+
+.react-text {
+  color: #87CEEB;
+}
+
+.node-text {
+  color: #68A063
+}
+
+.my-text {
+  color: #00758F
+}
+
+.sql-text {
+  color: #F29111
 }
