@@ -9,6 +9,7 @@ import soln from "../assets/img/soln.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import Card from "./Card";
 
 export const Projects = () => {
 
@@ -17,7 +18,7 @@ export const Projects = () => {
       title: "Paydigital App",
       description: "Mpesa, Airtel & Paypal API Integration",
       imgUrl: projImg1,
-      href: "https://paydigital.herokuapp.com/",
+      button: "Site"
     },
     {
       title: "KEMDR",
@@ -65,7 +66,7 @@ export const Projects = () => {
                       <Nav.Link eventKey="second">Tab 2</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Github Projects</Nav.Link>
+                      <Nav.Link eventKey="third">Blogs</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -87,7 +88,23 @@ export const Projects = () => {
                       <p>Sit back relax and see the magic 💯</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>More project Coming Soon 🥳 </p>
+                     <div>
+                      <Card title="Blogs" style={{ width: '300px'}}>
+                  
+                       <p>
+                        You can now view personal-portfolio in the browser.
+
+Local:            http://localhost:3000
+On Your Network:  http://192.168.254.196:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+
+                        </p>
+                      </Card>
+                      </div>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
