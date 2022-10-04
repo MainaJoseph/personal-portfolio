@@ -29,26 +29,36 @@ export const Projects = () => {
       title: "KEMDR",
       description: "KEMDR is a multihospital managment system with interctive UI and great functionality",
       imgUrl: kmedr,
+      button: "site",
+      button1: "github"
     },
     {
       title: "Wemwa Sacco",
       description: "This is a sacco managment system with interactivity between users and the system",
       imgUrl: wemwa,
+      button: "site",
+      button1: "github"
     },
     {
       title: "Digital Solution",
       description: "Is a software development company. I'm the founder of this institution",
       imgUrl: soln,
+      button: "site",
+      button1: "github"
     },
     {
       title: "JM_Movies",
       description: "Moives streaming site",
       imgUrl: projImg2,
+      button: "site",
+      button1: "github"
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg3,
+      button: "site",
+      button1: "github"
     },
   ];
 
