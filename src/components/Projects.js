@@ -10,7 +10,7 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import Card from "./Card";
-import './Cards.css';
+
 
 
 
@@ -93,62 +93,8 @@ export const Projects = () => {
                       <p>Sit back relax and see the magic 💯</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third"> 
-                    <div className="column1">
-                    <div class="container1">
-  <div class="card">
-    <div class="imgBx">
-      <img src="https://assets.codepen.io/4164355/shoes.png" />
-    </div>
-    <div class="contentBx">
-      <h2>Nike Shoes</h2>
-      <div class="size">
-        <h3>Size :</h3>
-        <span>7</span>
-        <span>8</span>
-        <span>9</span>
-        <span>10</span>
-      </div>
-      <div class="color">
-        <h3>Color :</h3>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <a href="#">Buy Now</a>
-    </div>
-  </div>
-</div>
-
-</div>
-
-<div class="column2">
-<div style={{ columngap: '40px'}} class="container1">
-  <div class="card">
-    <div class="imgBx">
-      <img src="https://assets.codepen.io/4164355/shoes.png" />
-    </div>
-    <div class="contentBx">
-      <h2>Nike Shoes</h2>
-      <div class="size">
-        <h3>Size :</h3>
-        <span>7</span>
-        <span>8</span>
-        <span>9</span>
-        <span>10</span>
-      </div>
-      <div class="color">
-        <h3>Color :</h3>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <a href="#">Buy Now</a>
-    </div>
-  </div>
-</div>
-
-</div>
-                    </Tab.Pane>
+                 
+          </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
               </div>}
