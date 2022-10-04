@@ -10,6 +10,10 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import Card from "./Card";
+import './Cards.css';
+
+
+
 
 export const Projects = () => {
 
@@ -18,7 +22,8 @@ export const Projects = () => {
       title: "Paydigital App",
       description: "Mpesa, Airtel & Paypal API Integration",
       imgUrl: projImg1,
-      button: "Site"
+      button: "Site",
+      button1: "github"
     },
     {
       title: "KEMDR",
@@ -87,24 +92,62 @@ export const Projects = () => {
                     <Tab.Pane eventKey="second">
                       <p>Sit back relax and see the magic 💯</p>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="third">
-                     <div>
-                      <Card title="Blogs" style={{ width: '300px'}}>
-                  
-                       <p>
-                        You can now view personal-portfolio in the browser.
+                    <Tab.Pane eventKey="third"> 
+                    <div className="column1">
+                    <div class="container1">
+  <div class="card">
+    <div class="imgBx">
+      <img src="https://assets.codepen.io/4164355/shoes.png" />
+    </div>
+    <div class="contentBx">
+      <h2>Nike Shoes</h2>
+      <div class="size">
+        <h3>Size :</h3>
+        <span>7</span>
+        <span>8</span>
+        <span>9</span>
+        <span>10</span>
+      </div>
+      <div class="color">
+        <h3>Color :</h3>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <a href="#">Buy Now</a>
+    </div>
+  </div>
+</div>
 
-Local:            http://localhost:3000
-On Your Network:  http://192.168.254.196:3000
+</div>
 
-Note that the development build is not optimized.
-To create a production build, use npm run build.
+<div class="column2">
+<div style={{ columngap: '40px'}} class="container1">
+  <div class="card">
+    <div class="imgBx">
+      <img src="https://assets.codepen.io/4164355/shoes.png" />
+    </div>
+    <div class="contentBx">
+      <h2>Nike Shoes</h2>
+      <div class="size">
+        <h3>Size :</h3>
+        <span>7</span>
+        <span>8</span>
+        <span>9</span>
+        <span>10</span>
+      </div>
+      <div class="color">
+        <h3>Color :</h3>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <a href="#">Buy Now</a>
+    </div>
+  </div>
+</div>
 
-webpack compiled successfully
-
-                        </p>
-                      </Card>
-                      </div>
+</div>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

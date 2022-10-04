@@ -2,8 +2,20 @@ import { Col } from "react-bootstrap";
 import styled from "styled-components";
 
 
+const theme = {
+  green: {
+    default: '#1b5e20',
+    hover: '#00e676',
+  },
+  pink: {
+    default: '#263238',
+    hover: '#546e7a',
+    }
+}
+
+
 const Button= styled.button`
-background-color: #1b5e20;
+background-color: ${props => theme[props.theme].default};
 color: white;
 padding: 5px 15px;
 border-radius: 5px;
@@ -15,14 +27,17 @@ transition: ease background-color 250ms;
 margin: 10px 0px;
 
 &:hover {
-background-color: #00e676;
+background-color: ${props => theme[props.theme].hover};
 
 }
 `
+Button.defaultProps ={
+  theme: 'green'
+}
 
 
 
-export const ProjectCard = ({ title, description, imgUrl, button }) => {
+export const ProjectCard = ({ title, description, imgUrl, button, button1 }) => {
   return (
     <Col size={12} sm={6} md={4}>
       <div className="proj-imgbx">
@@ -30,9 +45,20 @@ export const ProjectCard = ({ title, description, imgUrl, button }) => {
         <div className="proj-txtx">
           <h4>{title}</h4>
           <span>{description}</span>< br/>< br/>< br/>
+        
+          <div>
           <a href="https://paydigital.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-          <Button>{button}</Button>
+          <Button  title="Paydigital App"
+        onPress={() => console.log("clicked")}>{button}</Button>
           </a>
+          </div>
+
+          <div>
+          <a href="https://github.com/MainaJoseph/Mpesa_intergration" target="_blank" rel="noopener noreferrer">
+          <Button theme="pink" title="Github" onPress={() => console.log("clicked")}>{button1}</Button>
+          </a>
+          </div>
+          
         </div>
       </div>
     </Col>
