@@ -12,7 +12,7 @@ import TrackVisibility from 'react-on-screen';
 
 import Chat from './Chat';
 
-import Card from "./Card";
+
 
 
 
