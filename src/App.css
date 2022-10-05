@@ -84,7 +84,7 @@ p.danger {
 /************ Navbar Css ************/
 nav.navbar {
   padding: 18px 0;
-  position: fixed;
+  position: relative;
   width: 100%;
   top: 0;
   z-index: 9999;
@@ -232,11 +232,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Banner Css ************/
 .banner {
-  margin-top: 0;
+
   padding: 260px 0 100px 0;
   background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 .banner .tagline {
@@ -616,3 +616,64 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+.scrollTop {
+  position: fixed; 
+  width: 100%;
+  bottom: 20px;
+  align-items: right;
+  height: 20px;
+  justify-content: right;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+}
+
+.scrollTop:hover{
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.pink-text {
+  color: #CC8899;
+}
+
+.red-text {
+  color: #787CB5;
+}
+
+.react-text {
+  color: #87CEEB;
+}
+
+.node-text {
+  color: #68A063
+}
+
+.my-text {
+  color: #00758F
+}
+
+.sql-text {
+  color: #F29111
+}
+
+.card {
+  background: red;
+}
+
+
+
+
+
+
