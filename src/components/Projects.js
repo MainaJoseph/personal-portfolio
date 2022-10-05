@@ -9,10 +9,7 @@ import soln from "../assets/img/soln.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-
-import './Tab.css'
-
-
+import Chat from './Chat';
 
 
 
@@ -23,45 +20,37 @@ export const Projects = () => {
       title: "Paydigital App",
       description: "Mpesa, Airtel & Paypal API Integration",
       imgUrl: projImg1,
-      button: "Site",
-      button1: "github"
+     
     },
+    
     {
       title: "KEMDR",
       description: "KEMDR is a multihospital managment system with interctive UI and great functionality",
       imgUrl: kmedr,
-      button: "site",
-      button1: "github"
     },
     {
       title: "Wemwa Sacco",
       description: "This is a sacco managment system with interactivity between users and the system",
       imgUrl: wemwa,
-      button: "site",
-      button1: "github"
     },
     {
       title: "Digital Solution",
       description: "Is a software development company. I'm the founder of this institution",
       imgUrl: soln,
-      button: "site",
-      button1: "github"
     },
     {
       title: "JM_Movies",
       description: "Moives streaming site",
       imgUrl: projImg2,
-      button: "site",
-      button1: "github"
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg3,
-      button: "site",
-      button1: "github"
     },
   ];
+
+  
 
   return (
     <section className="project" id="project">
@@ -79,11 +68,12 @@ export const Projects = () => {
                       <Nav.Link eventKey="first">Tab 1</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                      <Nav.Link eventKey="second">ChatBot</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="third">Blogs</Nav.Link>
                     </Nav.Item>
+                    
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
@@ -101,11 +91,11 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>Sit back relax and see the magic 💯</p>
+                   <Chat />
                     </Tab.Pane>
-                    <Tab.Pane eventKey="third"> 
- 
-          </Tab.Pane>
+                    <Tab.Pane eventKey="third">
+                      <p>More project Coming Soon 🥳 </p>
+                    </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
               </div>}
