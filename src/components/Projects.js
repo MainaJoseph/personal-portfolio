@@ -9,13 +9,13 @@ import soln from "../assets/img/soln.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-<<<<<<< HEAD
+
 import Chat from './Chat';
-=======
+
 import Card from "./Card";
 
 
->>>>>>> fa247984a317e434ea4f8fd37a7d239b9c462fa3
+
 
 
 
@@ -26,12 +26,9 @@ export const Projects = () => {
       title: "Paydigital App",
       description: "Mpesa, Airtel & Paypal API Integration",
       imgUrl: projImg1,
-<<<<<<< HEAD
-     
-=======
       button: "Site",
       button1: "github"
->>>>>>> fa247984a317e434ea4f8fd37a7d239b9c462fa3
+
     },
     
     {
@@ -112,14 +109,11 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-<<<<<<< HEAD
                    <Chat />
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p>More project Coming Soon 🥳 </p>
-=======
-                      <p>Sit back relax and see the magic 💯</p>
->>>>>>> fa247984a317e434ea4f8fd37a7d239b9c462fa3
+
                     </Tab.Pane>
                     <Tab.Pane eventKey="third"> 
                  

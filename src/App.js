@@ -8,10 +8,7 @@ import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import {ScrollArrow} from "./components/ScrollArrow";
-<<<<<<< HEAD
 
-=======
->>>>>>> fa247984a317e434ea4f8fd37a7d239b9c462fa3
 
 function App() {
   return (
@@ -23,10 +20,6 @@ function App() {
       <Contact />
       <Footer />
       <ScrollArrow />
-<<<<<<< HEAD
-      
-=======
->>>>>>> fa247984a317e434ea4f8fd37a7d239b9c462fa3
     </div>
   );
 }
