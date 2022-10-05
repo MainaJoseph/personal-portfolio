@@ -9,7 +9,13 @@ import soln from "../assets/img/soln.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+<<<<<<< HEAD
 import Chat from './Chat';
+=======
+import Card from "./Card";
+
+
+>>>>>>> fa247984a317e434ea4f8fd37a7d239b9c462fa3
 
 
 
@@ -20,33 +26,48 @@ export const Projects = () => {
       title: "Paydigital App",
       description: "Mpesa, Airtel & Paypal API Integration",
       imgUrl: projImg1,
+<<<<<<< HEAD
      
+=======
+      button: "Site",
+      button1: "github"
+>>>>>>> fa247984a317e434ea4f8fd37a7d239b9c462fa3
     },
     
     {
       title: "KEMDR",
       description: "KEMDR is a multihospital managment system with interctive UI and great functionality",
       imgUrl: kmedr,
+      button: "site",
+      button1: "github"
     },
     {
       title: "Wemwa Sacco",
       description: "This is a sacco managment system with interactivity between users and the system",
       imgUrl: wemwa,
+      button: "site",
+      button1: "github"
     },
     {
       title: "Digital Solution",
       description: "Is a software development company. I'm the founder of this institution",
       imgUrl: soln,
+      button: "site",
+      button1: "github"
     },
     {
       title: "JM_Movies",
       description: "Moives streaming site",
       imgUrl: projImg2,
+      button: "site",
+      button1: "github"
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg3,
+      button: "site",
+      button1: "github"
     },
   ];
 
@@ -91,11 +112,18 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
+<<<<<<< HEAD
                    <Chat />
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p>More project Coming Soon 🥳 </p>
+=======
+                      <p>Sit back relax and see the magic 💯</p>
+>>>>>>> fa247984a317e434ea4f8fd37a7d239b9c462fa3
                     </Tab.Pane>
+                    <Tab.Pane eventKey="third"> 
+                 
+          </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
               </div>}
