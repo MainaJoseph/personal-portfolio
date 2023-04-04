@@ -1,6 +1,22 @@
-# Personal Portfolio Website in React
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://mainajm.netlify.app/">
+    <img src="src/images/512x512.png" alt="Logo" width="80" height="80">
+  </a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center">Maina JM's Software Engineering Portfolio V2</h3>
+
+  <p align="center">
+    React Engineering Portfolio
+    <br />
+    <a href="https://github.com/MainaJoseph/personal-portfolio"><strong>Explore the codebase »</strong></a>
+    <br />
+    <br />
+
+
+  </p>
+
 
 ## Link to Portfolio
 
