@@ -2,9 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# [Link To Portfolio](https://mainajm.netlify.app/)
+## Link to Portfolio
 
-<img width="941" alt="Screenshot 2023-04-04 123214" src="https://user-images.githubusercontent.com/75726095/229750705-998fb705-dc9a-4535-a097-d6d2a70af175.png">
+Visit [https://mainajm.netlify.app/](https://mainajm.netlify.app/) to view the deployed version of this website.
+
+![Screenshot of website](https://user-images.githubusercontent.com/75726095/229750705-998fb705-dc9a-4535-a097-d6d2a70af175.png)
 
 ## Getting Started
 
@@ -12,28 +14,12 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-- nodejs and yarn package manager
-  ```sudo apt install nodejs```
+- Node.js and Yarn package manager
 
-### Installation
+You can install them on Ubuntu by running:
 
-1. Clone the repo
-<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
-
-<div>
-  <button class="btn" data-clipboard-target="#clone-link">Copy</button>
-  <input type="text" id="clone-link" value="git clone https://github.com/MainaJoseph/personal-portfolio.git" readonly>
-</div>
-
-<script>
-  new ClipboardJS('.btn');
-</script>
-
-
-
-yarn add || npm install -- depending package manager which you are using
-
-2. Install packages
-
-
-
+```bash
+sudo apt install nodejs yarn
+  
+  
+  Installation
