@@ -19,3 +19,11 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
 git clone https://github.com/MainaJoseph/personal-portfolio.git
+
+
+yarn add || npm install -- depending package manager which you are using
+
+2. Install packages
+
+
+
