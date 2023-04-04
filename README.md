@@ -22,5 +22,12 @@ You can install them on Ubuntu by running:
 
 ```bash
 sudo apt install nodejs yarn
-  
-  
+```
+
+### Installation 
+
+    ### Clone the repository:
+    
+```bash
+git clone https://github.com/MainaJoseph/personal-portfolio.git
+```
