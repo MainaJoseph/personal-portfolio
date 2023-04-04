@@ -16,10 +16,11 @@ To get a local copy up and running follow these simple steps.
 
 - Node.js and Yarn package manager
 
+install `Node Js` and `Yarn Package Manager` If your using Yarn
+
 You can install them on Ubuntu by running:
 
 ```bash
 sudo apt install nodejs yarn
   
   
-  Installation
