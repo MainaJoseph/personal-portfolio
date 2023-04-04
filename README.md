@@ -67,3 +67,9 @@ yarn develop || yarn start || npm start
 ```bash
 yarn build || npm run build
 ```
+
+4. Run Production Locally
+
+```bash
+yarn serve || npm serve
+```
