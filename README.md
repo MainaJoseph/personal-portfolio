@@ -4,7 +4,7 @@
 
 
   <a href="https://mainajm.netlify.app/">
-    <img src="https://user-images.githubusercontent.com/75726095/229771635-8c621106-676f-44d5-af06-1bdfb2c5b801.png" alt="Logo" width="80" height="80">
+    <img src="https://user-images.githubusercontent.com/75726095/229771907-4e34d43d-caa8-44e7-afe3-6f90ae0aa91b.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Maina JM's Software Engineering Portfolio V2</h3>
