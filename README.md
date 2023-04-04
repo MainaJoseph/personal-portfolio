@@ -18,3 +18,4 @@ To get a local copy up and running follow these simple steps.
 ### Installation
 
 1. Clone the repo
+git clone https://github.com/MainaJoseph/personal-portfolio.git
