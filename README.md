@@ -25,9 +25,25 @@ sudo apt install nodejs yarn
 ```
 
 ### Installation 
-
-    ### Clone the repository:
+1) Clone the repository:
     
 ```bash
 git clone https://github.com/MainaJoseph/personal-portfolio.git
+```
+
+2) Install dependencies:
+
+```bash
+cd personal-portfolio
+yarn install
+```
+
+Alternatively, you can use npm:
+```bash
+npm install
+```
+
+or
+```bash
+npm start
 ```
