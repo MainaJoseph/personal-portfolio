@@ -35,7 +35,7 @@ git clone https://github.com/MainaJoseph/personal-portfolio.git
 
 ```bash
 cd personal-portfolio
-yarn install
+yarn add
 ```
 
 Alternatively, you can use npm:
