@@ -18,7 +18,17 @@ To get a local copy up and running follow these simple steps.
 ### Installation
 
 1. Clone the repo
-git clone https://github.com/MainaJoseph/personal-portfolio.git
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+
+<div>
+  <button class="btn" data-clipboard-target="#clone-link">Copy</button>
+  <input type="text" id="clone-link" value="git clone https://github.com/MainaJoseph/personal-portfolio.git" readonly>
+</div>
+
+<script>
+  new ClipboardJS('.btn');
+</script>
+
 
 
 yarn add || npm install -- depending package manager which you are using
