@@ -47,3 +47,23 @@ or
 ```bash
 npm start
 ```
+
+### Usage
+
+1. Run Tests
+
+```bash
+yarn test
+```
+
+2. Run in Development
+
+```bash
+yarn develop || yarn start || npm start
+```
+
+3. Build for Production
+
+```bash
+yarn build || npm run build
+```
