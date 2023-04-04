@@ -1,8 +1,10 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
+
+
   <a href="https://mainajm.netlify.app/">
-    <img src="src/images/512x512.png" alt="Logo" width="80" height="80">
+    <img src="https://user-images.githubusercontent.com/75726095/229771635-8c621106-676f-44d5-af06-1bdfb2c5b801.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Maina JM's Software Engineering Portfolio V2</h3>
