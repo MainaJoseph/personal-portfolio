@@ -1,11 +1,3 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -33,6 +25,19 @@
 Visit [https://mainajm.netlify.app/](https://mainajm.netlify.app/) to view the deployed version of this website.
 
 ![Screenshot of website](https://user-images.githubusercontent.com/75726095/229750705-998fb705-dc9a-4535-a097-d6d2a70af175.png)
+
+
+### Technologies
+
+- Create React App
+- Custom Hooks
+- React error boundary
+- Copy to Clipboard
+-  Github API
+- Integration and Unit Testing with RTL
+- ChatBot Functionality
+
+<!-- GETTING STARTED -->
 
 ## Getting Started
 
